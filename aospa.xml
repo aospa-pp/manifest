@@ -12,7 +12,7 @@
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
   <remove-project name="platform/build_repo" />
-  <project path="build/make" name="AOSPA/android_build" remote="aospa" >
+  <project path="build/make" name="aospa-pp/android_build" revision="uvite" remote="github" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -21,7 +21,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" >
+  <project path="build/soong" name="aospa-pp/android_build_soong" revision="uvite" remote="github" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -79,7 +79,7 @@
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
+  <project path="frameworks/base" name="aospa-pp/android_frameworks_base" revision="uvite" remote="github" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="AOSPA/android_frameworks_libs_systemui" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
@@ -120,24 +120,24 @@
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
   <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" />
-  <project path="packages/apps/Paranoid/SystemUI" name="AOSPA/android_packages_apps_Paranoid_SystemUI" remote="aospa" />
+  <project path="packages/apps/Paranoid/SystemUI" name="aospa-pp/android_packages_apps_Paranoid_SystemUI" revision="uvite" remote="github" />
   <project path="packages/resources/devicesettings" name="AOSPA/android_packages_resources_devicesettings" remote="aospa" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <project path="packages/apps/CarrierConfig" name="AOSPA/android_packages_apps_CarrierConfig" remote="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" />
+  <project path="packages/apps/Launcher3" name="aospa-pp/android_packages_apps_Launcher3" revision="uvite" remote="github" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Nfc" name="AOSPA/android_packages_apps_Nfc" remote="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
+  <project path="packages/apps/Settings" name="aospa-pp/android_packages_apps_Settings" revision="uvite" remote="github" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="AOSPA/android_packages_modules_Bluetooth" remote="aospa" />
   <remove-project name="platform/packages/modules/common" />
   <project path="packages/modules/common" name="AOSPA/android_packages_modules_common" remote="aospa" />
   <remove-project name="platform/packages/modules/Connectivity" />
-  <project path="packages/modules/Connectivity" name="AOSPA/android_packages_modules_Connectivity" remote="aospa" />
+  <project path="packages/modules/Connectivity" name="aospa-pp/android_packages_modules_Connectivity" revision="uvite" remote="github" />
   <remove-project name="platform/packages/modules/StatsD" />
   <project path="packages/modules/StatsD" name="AOSPA/android_packages_modules_StatsD" remote="aospa" />
   <remove-project name="platform/packages/modules/Wifi" />
@@ -160,7 +160,7 @@
   <remove-project name="platform/system/bpf" />
   <project path="system/bpf" name="AOSPA/android_system_bpf" remote="aospa" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
+  <project path="system/core" name="aospa-pp/android_system_core" revision="uvite" remote="github" />
   <remove-project name="platform/system/chre" />
   <project path="system/chre" name="AOSPA/android_system_chre" remote="aospa" />
   <remove-project name="platform/system/libfmq" />
@@ -202,7 +202,7 @@
   <project path="toolchain/pgo-profiles" name="AOSPA/android_toolchain_pgo-profiles" remote="aospa" />
 
   <!-- Vendor (AOSPA) -->
-  <project path="vendor/aospa" name="AOSPA/android_vendor_aospa" remote="aospa" >
+  <project path="vendor/aospa" name="aospa-pp/android_vendor_aospa" revision="uvite" remote="github" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" remote="aospa" />
