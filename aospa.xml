@@ -119,7 +119,7 @@
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
-  <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" />
+  <project path="packages/apps/ParanoidSense" name="aospa-pp/android_packages_apps_ParanoidSense" revision="uvite" remote="github" />
   <project path="packages/apps/ParanoidSettings" name="aospa-pp/android_packages_apps_ParanoidSettings" revision="uvite" remote="github" />
   <project path="packages/apps/Paranoid/SystemUI" name="aospa-pp/android_packages_apps_Paranoid_SystemUI" revision="uvite" remote="github" />
   <project path="packages/resources/devicesettings" name="AOSPA/android_packages_resources_devicesettings" remote="aospa" />
@@ -208,7 +208,7 @@
   </project>
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" remote="aospa" />
   <project path="vendor/aospa/prebuilt" name="android_vendor_aospa_prebuilt" remote="blobs-gitlab" />
-  <project path="vendor/aospa/translations" name="AOSPA/android_vendor_aospa_translations" remote="aospa" />
+  <project path="vendor/aospa/translations" name="aospa-pp/android_vendor_aospa_translations" revision="uvite" remote="github" />
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="blobs-gitlab" clone-depth="1" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" clone-depth="1" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
