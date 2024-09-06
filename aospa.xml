@@ -153,6 +153,8 @@
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" />
   <remove-project name="platform/packages/modules/RemoteKeyProvisioning" />
   <project path="packages/modules/RemoteKeyProvisioning" name="AOSPA/android_packages_modules_RemoteKeyProvisioning" remote="aospa" />
+  <remove-project name="platform/packages/modules/adb" />
+  <project path="packages/modules/adb" name="aospa-pp/android_packages_modules_adb" revision="uvite" remote="github" />
 
   <!-- Prebuilts (AOSPA) -->
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" />
@@ -179,7 +181,7 @@
   <remove-project name="platform/system/qcom" />
   <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
-  <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
+  <project path="system/sepolicy" name="aospa-pp/android_system_sepolicy" revision="uvite" remote="github" />
   <remove-project name="platform/system/server_configurable_flags" />
   <project path="system/server_configurable_flags" name="AOSPA/android_system_server_configurable_flags" remote="aospa" />
   <remove-project name="platform/system/update_engine" />
