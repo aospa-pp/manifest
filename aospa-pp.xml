@@ -93,8 +93,8 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
 
-  <remove-project name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" />
-  <project path="vendor/aospa/apps/ParanoidThemePicker" name="aospa-pp/vendor_aospa_apps_ParanoidThemePicker" remote="aospa-pp" />
+  <!-- <remove-project name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" />
+  <project path="vendor/aospa/apps/ParanoidThemePicker" name="aospa-pp/vendor_aospa_apps_ParanoidThemePicker" remote="aospa-pp" /> -->
 
   <remove-project name="AOSPA/android_vendor_aospa_translations" />
   <project path="vendor/aospa/translations" name="aospa-pp/android_vendor_aospa_translations" remote="aospa-pp" />
