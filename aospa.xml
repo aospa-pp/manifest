@@ -51,8 +51,8 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
+  <!-- <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" /> -->
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
 

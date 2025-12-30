@@ -35,8 +35,8 @@
   <project path="device/qcom/sepolicy_vndr" name="aospa-pp/android_device_qcom_sepolicy_vndr" remote="aospa-pp" />
 
   <!-- Frameworks -->
-  <remove-project name="AOSPA/android_frameworks_base" />
-  <project path="frameworks/base" name="aospa-pp/android_frameworks_base" remote="aospa-pp" />
+  <!-- <remove-project name="AOSPA/android_frameworks_base" />
+  <project path="frameworks/base" name="aospa-pp/android_frameworks_base" remote="aospa-pp" /> -->
 
   <remove-project name="AOSPA/android_frameworks_native" />
   <project path="frameworks/native" name="aospa-pp/android_frameworks_native" remote="aospa-pp" />
