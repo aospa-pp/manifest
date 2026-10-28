@@ -27,6 +27,10 @@
            review="gerrit-ssh.aospa.co"
            revision="calcite"/>
 
+  <remote  name="aospa-pp"
+           fetch="ssh://git@github.com"
+           revision="calcite" />
+
   <remote  name="bitbucket"
            fetch="https://bitbucket.org"
            revision="calcite" />
@@ -50,6 +54,7 @@
 
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="aospa-pp.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>

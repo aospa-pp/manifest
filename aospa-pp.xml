@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+  <remove-project name="AOSPA/android_build" />
+  <project path="build/make" name="aospa-pp/android_build" remote="aospa-pp" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="AOSPA/android_build_soong" />
+  <project path="build/soong" name="aospa-pp/android_build_soong" remote="aospa-pp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Frameworks -->
+  <remove-project name="AOSPA/android_frameworks_native" />
+  <project path="frameworks/native" name="aospa-pp/android_frameworks_native" remote="aospa-pp" />
+
+  <!-- System -->
+  <remove-project name="AOSPA/android_system_core" />
+  <project path="system/core" name="aospa-pp/android_system_core" remote="aospa-pp" />
+
+  <!-- Vendor (AOSPA) -->
+  <remove-project name="AOSPA/android_vendor_aospa" />
+  <project path="vendor/aospa" name="aospa-pp/android_vendor_aospa" remote="aospa-pp" >
+    <linkfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+  <!-- Vendor -->
+  <remove-project name="proprietary_vendor_qcom_common" />
+  <project path="vendor/qcom/common" name="aospa-pp/proprietary_vendor_qcom_common" remote="aospa-pp" />
+
+</manifest>
