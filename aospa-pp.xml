@@ -36,4 +36,8 @@
   <remove-project name="proprietary_vendor_qcom_common" />
   <project path="vendor/qcom/common" name="aospa-pp/proprietary_vendor_qcom_common" remote="aospa-pp" />
 
+
+  <!-- Paranoid Sense -->
+  <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" revision="calcite" />
+
 </manifest>
