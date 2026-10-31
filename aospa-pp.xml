@@ -26,6 +26,9 @@
   <remove-project name="AOSPA/android_system_core" />
   <project path="system/core" name="aospa-pp/android_system_core" remote="aospa-pp" />
 
+  <remove-project name="AOSPA/android_system_fs_fs_mgr" />
+  <project path="system/fs/fs_mgr" name="aospa-pp/android_system_fs_fs_mgr" remote="aospa-pp" />
+
   <!-- Vendor (AOSPA) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
   <project path="vendor/aospa" name="aospa-pp/android_vendor_aospa" remote="aospa-pp" >
