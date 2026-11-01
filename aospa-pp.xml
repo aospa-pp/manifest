@@ -47,4 +47,8 @@
   <remove-project name="AOSPA/android_packages_apps_ParanoidSettings" />
   <project path="packages/apps/ParanoidSettings" name="aospa-pp/android_packages_apps_ParanoidSettings" remote="aospa-pp" />
 
+  <!-- Settings -->
+  <remove-project name="AOSPA/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="aospa-pp/android_packages_apps_Settings" remote="aospa-pp" />
+
 </manifest>
