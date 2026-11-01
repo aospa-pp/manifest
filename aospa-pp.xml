@@ -43,4 +43,8 @@
   <!-- Paranoid Sense -->
   <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" revision="calcite" />
 
+  <!-- Paranoid Settings -->
+  <remove-project name="AOSPA/android_packages_apps_ParanoidSettings" />
+  <project path="packages/apps/ParanoidSettings" name="aospa-pp/android_packages_apps_ParanoidSettings" remote="aospa-pp" />
+
 </manifest>
