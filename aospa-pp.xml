@@ -58,6 +58,10 @@
   <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
   <project path="packages/modules/Bluetooth" name="aospa-pp/android_packages_modules_Bluetooth" remote="aospa-pp" />
 
+  <!-- Connectivity -->
+  <remove-project name="AOSPA/android_packages_modules_Connectivity" />
+  <project path="packages/modules/Connectivity" name="aospa-pp/android_packages_modules_Connectivity" remote="aospa-pp" />
+
   <!-- Device (Qualcomm) -->
   <remove-project name="AOSPA/android_device_qcom_common" />
   <project path="device/qcom/common" name="aospa-pp/android_device_qcom_common" remote="aospa-pp" />
