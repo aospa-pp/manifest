@@ -22,6 +22,10 @@
   <remove-project name="AOSPA/android_frameworks_native" />
   <project path="frameworks/native" name="aospa-pp/android_frameworks_native" remote="aospa-pp" />
 
+  <!-- Hardware -->
+  <remove-project name="AOSPA/android_hardware_interfaces" />
+  <project path="hardware/interfaces" name="aospa-pp/android_hardware_interfaces" remote="aospa-pp" />
+
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
   <project path="system/core" name="aospa-pp/android_system_core" remote="aospa-pp" />
