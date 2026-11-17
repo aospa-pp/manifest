@@ -22,6 +22,10 @@
   <remove-project name="AOSPA/android_frameworks_native" />
   <project path="frameworks/native" name="aospa-pp/android_frameworks_native" remote="aospa-pp" />
 
+  <!-- Bootable -->
+  <remove-project name="AOSPA/android_bootable_recovery" />
+  <project path="bootable/recovery" name="aospa-pp/android_bootable_recovery" remote="aospa-pp" />
+
   <!-- Hardware -->
   <remove-project name="AOSPA/android_hardware_interfaces" />
   <project path="hardware/interfaces" name="aospa-pp/android_hardware_interfaces" remote="aospa-pp" />
@@ -29,6 +33,9 @@
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
   <project path="system/core" name="aospa-pp/android_system_core" remote="aospa-pp" />
+
+  <remove-project name="AOSPA/android_system_update_engine" />
+  <project path="system/update_engine" name="aospa-pp/android_system_update_engine" remote="aospa-pp" />
 
   <remove-project name="AOSPA/android_system_fs_fs_mgr" />
   <project path="system/fs/fs_mgr" name="aospa-pp/android_system_fs_fs_mgr" remote="aospa-pp" />
